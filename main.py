@@ -1,32 +1,20 @@
-"""One-Line Office Joke: 24-Hour Sprint.
+"""One-line office joke entry for the make.fun 24-hour sprint.
 
-Writes one short joke about office life to /output/entry.txt.
-
-The joke: a standup claim of "no blockers" told while the speaker's own
-broken deployment is still rolling back behind them — the deadpan status
-update is itself the lie, and the rollback is the punchline.
+Writes the entry text to /output/entry.txt, with no trailing newline,
+so the file holds exactly the joke text and nothing else.
 """
 
 import os
 
-JOKE = (
-    "In standup I said 'no blockers' while the deployment I broke "
-    "was still rolling back behind me."
-)
+JOKE = "The vendor promised delivery in two weeks, so we planned around it, waited six, and renamed the delay a rollout."
 
 
-def main() -> None:
-    # The gate only accepts UTF-8 text of 1-200 characters, not whitespace
-    # only. Check here so a bad joke fails loudly at build time instead
-    # of silently scoring 0 after submission.
+def main():
+    """Write JOKE to /output/entry.txt after the length gate."""
     if not 1 <= len(JOKE) <= 200:
-        raise ValueError(
-            f"joke must be 1-200 characters, got {len(JOKE)}"
-        )
-    if not JOKE.strip():
-        raise ValueError("joke must not be only whitespace")
+        raise ValueError("entry must be 1-200 characters, got %d" % len(JOKE))
     os.makedirs("/output", exist_ok=True)
-    with open("/output/entry.txt", "w", encoding="utf-8", newline="") as f:
+    with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(JOKE)
 
 
