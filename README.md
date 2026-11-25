@@ -4,13 +4,13 @@
 [![rank](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/zelotadonia-lang/one-line-office-joke/rank.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
 [![reward](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/zelotadonia-lang/one-line-office-joke/reward.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
 
-Entry for the make.fun bounty **One-Line Office Joke: 24-Hour Sprint** — one line of office humour, 112 characters, built for round 2.
+Entry for the make.fun bounty **One-Line Office Joke: 24-Hour Sprint** — one line of office humour, 89 characters, built for round 3.
 
 Owner: [zelotadonia-lang](https://github.com/zelotadonia-lang) · Referral: https://make.fun/r/yk7ez00m
 
 ## The joke
 
-> The vendor promised delivery in two weeks, so we planned around it, waited six, and renamed the delay a rollout.
+> My badge photo is from 2019, and security now waves through a stranger who used to be me.
 
 ## Run it
 
